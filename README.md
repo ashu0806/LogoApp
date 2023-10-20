@@ -1,16 +1,19 @@
-# logo_app
+# Logo_app
 
-A new Flutter project.
+Description: The Task is a Flutter project that showcases various features and functionalities implemented using GetX state management and Flutter static UIs.
 
-## Getting Started
+Project Features:
 
-This project is a starting point for a Flutter application.
+Splash Page and Sign-In Flow: The app starts with a splash page and then redirects users to the sign-in page. Existing users can sign in with a static mobile number.
 
-A few resources to get you started if this is your first Flutter project:
+Getx State Management Approach: GetX is used for state management, handling for navigation and also for architecture.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Static UIs according to the instruction points.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Challenges and Solutions:
+
+The development process did not face any significant challenges, and all instructions were implemented successfully.
+
+Note:
+
+Please note that this project serves as a demonstration and does not contain sensitive files required for complete functionality. The purpose is to showcase the implementation of various features using Flutter and associated libraries.
