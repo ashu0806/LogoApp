@@ -23,18 +23,24 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScreenUtilInit(
-      designSize: const Size(
-        360,
-        690,
+    final MediaQueryData data = MediaQuery.of(context);
+    return MediaQuery(
+      data: data.copyWith(
+        textScaleFactor: 1,
       ),
-      minTextAdapt: true,
-      splitScreenMode: true,
-      child: GetMaterialApp(
-        title: "Logo App",
-        debugShowCheckedModeBanner: false,
-        initialRoute: AppPages.INITIAL,
-        getPages: AppPages.routes,
+      child: ScreenUtilInit(
+        designSize: const Size(
+          360,
+          690,
+        ),
+        minTextAdapt: true,
+        splitScreenMode: true,
+        child: GetMaterialApp(
+          title: "Logo App",
+          debugShowCheckedModeBanner: false,
+          initialRoute: AppPages.INITIAL,
+          getPages: AppPages.routes,
+        ),
       ),
     );
   }
